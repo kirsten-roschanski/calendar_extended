@@ -1,0 +1,30 @@
+{
+    "name": "kirsten-roschanski/contao-calendar_extended",
+    "type": "contao-module",
+    "description": "Contao Open Source CMS extension calendar_extended from Kester Mielke <mail@kester-mielke.de>",
+    "keywords": ["contao", "calendar", "calendar_extended"],
+    "license": "LGPL",
+    "authors": [
+        {
+            "name":"Kester Mielke",
+            "email":"mail@kester-mielke.de",
+            "role":"Developer"
+        },        
+        {
+            "name":"Kirsten Roschanski",
+            "email":"git@kirsten-roschanski.de",
+            "role":"Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6,<7",
+        "contao/core": ">=3.5,<4"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/calendar_extended"
+            }
+        }
+    }
+}
